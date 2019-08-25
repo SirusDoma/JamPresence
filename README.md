@@ -24,24 +24,27 @@ Example Code:
 int main()
 {
     // Initialize presence client
-	auto presence = Nx::Presence();
+    auto presence = Nx::Presence();
 
     // Best do this in separate thread;
-	while (true)
-	{
+    while (true)
+    {
         // Update the presence to update game state from client
-		presence.Update();
+        presence.Update();
 
         // Additionally you can query game state from presence object
         auto state = presence.Get
-
-		Sleep(100);
-	}
+	// Do something with state..
+	
+	// Let's not take the entire cpu
+        Sleep(100);
+    }
 
     // Clear the presence of jamming
     // Note that the presence will be cleared as well if the instance is destroyed
-	presence.Clear();
-	return 0;
+    presence.Clear();
+    
+    return 0;
 }
 ```
 
