@@ -4,7 +4,7 @@
 
 #include "Api.hpp"
 #include "Game.hpp"
-#include "Parser.hpp";
+#include "Parser.hpp"
 #include "EventHandler.hpp"
 
 namespace Nx
