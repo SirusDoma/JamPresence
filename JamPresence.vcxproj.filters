@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\Discord">
+      <UniqueIdentifier>{e4a6166e-3e29-4cad-84a2-1ed62591a3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Discord\Headers">
+      <UniqueIdentifier>{98a840ce-4d5d-4bc9-8db8-e9cf2b95cbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Discord\Sources">
+      <UniqueIdentifier>{28bfc18b-e107-4450-bd31-c695777e950d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Presence.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JamState.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ChartMeta.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parser.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventHandler.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\application_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\core.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\event.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\ffi.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\image_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\lobby_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\network_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\overlay_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\relationship_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\storage_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\store_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\types.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\user_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\voice_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\achievement_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\activity_manager.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\include\discord.h">
+      <Filter>Sources\Discord\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Api.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Presence.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\achievement_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\activity_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\application_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\core.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\image_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\lobby_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\network_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\overlay_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\relationship_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\storage_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\types.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\store_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\user_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\src\voice_manager.cpp">
+      <Filter>Sources\Discord\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
