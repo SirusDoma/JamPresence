@@ -1,9 +1,10 @@
 # Jam Presence #
-Let the others know you're jamming right now!
 
-## Summary ##
+<p align="center">
+  <img src="https://i.imgur.com/v0IUsFd.png">
+</p>
 
-![Jam Presence](https://imgur.com/v0IUsFd)
+Let the others know you're jamming right now!  
 
 JamPresence is a SDK to broadcast your O2Jamming activities into [Discord](https://discordapp.com/).  
 This can be useful for your custom game launcher of your private server and can be combined with offline server / emulator as long they use unpacked OTwo v1.8 client.
