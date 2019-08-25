@@ -5,14 +5,14 @@
 
 namespace Nx
 {
-	class API
-	{
-	public:
-		discord::Core *client;
+    class API
+    {
+    public:
+        discord::Core *client;
 
-		API()  { client = {}; }
-		~API() { delete client; }
-	};
+        API()  { client = {}; }
+        ~API() { delete client; }
+    };
 }
 
 #endif

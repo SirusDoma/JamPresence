@@ -6,11 +6,11 @@
 
 namespace Nx
 {
-	class Parser
-	{
-	public:
-		static ChartMeta Parse(std::string path, unsigned int difficulty);
-	};
+    class Parser
+    {
+    public:
+        static ChartMeta Parse(std::string path, unsigned int difficulty);
+    };
 }
 
 #endif

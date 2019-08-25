@@ -3,14 +3,14 @@
 
 namespace Nx
 {
-	struct ChartMeta
-	{
-		unsigned int MusicId;
-		std::string  Title;
-		unsigned int Level;
-		unsigned int Difficulty;
-		unsigned long Duration;
-	};
+    struct ChartMeta
+    {
+        unsigned int MusicId;
+        std::string  Title;
+        unsigned int Level;
+        unsigned int Difficulty;
+        unsigned long Duration;
+    };
 }
 
 #endif

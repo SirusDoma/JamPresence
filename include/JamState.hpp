@@ -5,14 +5,14 @@
 
 namespace Nx
 {
-	struct JamState
-	{
-		bool Playing;
-		ChartMeta Chart;
-		unsigned int PlayerCount;	
-		unsigned int SceneIndex;
-		unsigned int RoomSize;
-	};
+    struct JamState
+    {
+        bool Playing;
+        ChartMeta Chart;
+        unsigned int PlayerCount;    
+        unsigned int SceneIndex;
+        unsigned int RoomSize;
+    };
 }
 
 #endif

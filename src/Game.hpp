@@ -10,24 +10,24 @@
 
 namespace Nx
 {
-	class Game
-	{
-	private:
-		std::string winClass;
-		std::string moduleName;
+    class Game
+    {
+    private:
+        std::string winClass;
+        std::string moduleName;
 
-		HANDLE hProcess;
-		LPCVOID baseAddress;
+        HANDLE hProcess;
+        LPCVOID baseAddress;
 
-	public:
-		Game(std::string winClass, std::string moduleName);
-		virtual ~Game();
+    public:
+        Game(std::string winClass, std::string moduleName);
+        virtual ~Game();
 
-		LPCVOID GetBaseAddress();
-		HANDLE *GetProcessHandle();
+        LPCVOID GetBaseAddress();
+        HANDLE *GetProcessHandle();
 
-		unsigned int ReadMemory(DWORD address, bool relative = true);
-	};
+        unsigned int ReadMemory(DWORD address, bool relative = true);
+    };
 }
 
 #endif
