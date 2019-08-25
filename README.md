@@ -33,8 +33,10 @@ int main()
         presence.Update();
 
         // Additionally you can query game state from presence object
-        auto state = presence.Get
+        auto state = presence.GetPlayerState();
+	
 	// Do something with state..
+	std::printf(state.Chart.Title.c_str()); // e.g Bach Alive
 	
 	// Let's not take the entire cpu
         Sleep(100);
