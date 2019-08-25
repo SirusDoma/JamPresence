@@ -63,9 +63,15 @@ namespace Nx
 		JamState state = {};
 
 		// Initialize hook process
-		if (!process || !process->GetProcessHandle())
+		if (!process)
 		{
 			process = new Game(winClass, moduleName);
+		}
+
+		// Cannot reach the process, the game may no longer running or is not yet running
+		if (!process->GetProcessHandle())
+		{
+			return state;
 		}
 
 		// Get play info
@@ -102,6 +108,12 @@ namespace Nx
 		// Parse activity details
 		auto state = GetPlayerState();
 		static bool first = true;
+
+		if (!process->GetProcessHandle())
+		{
+			Clear();
+			return;
+		}
 
 		if (!force && !first && lastState.Playing == state.Playing && 
 			lastState.RoomSize == state.RoomSize && 
