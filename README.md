@@ -1,12 +1,14 @@
 # Jam Presence #
 
+Let the others know you're jamming right now!  
+
 <p align="center">
   <img src="https://i.imgur.com/v0IUsFd.png">
 </p>
 
-Let the others know you're jamming right now!  
+## Summary ##
 
-JamPresence is a SDK to broadcast your O2Jamming activities into [Discord](https://discordapp.com/).  
+JamPresence is a SDK to broadcast your O2Jamming activities into [Discord](https://discordapp.com/) via Rich Presence.  
 This can be useful for your custom game launcher of your private server and can be combined with offline server / emulator as long they use unpacked OTwo v1.8 client.
 
 This project is my debut in Reverse Engineering, some basic RE techniques was involved during collecting necessary addresses to make this work done.
