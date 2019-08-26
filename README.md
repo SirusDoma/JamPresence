@@ -26,7 +26,7 @@ int main()
     // Initialize presence client
     auto presence = Nx::Presence();
 
-    // Best do this in separate thread;
+    // Best to do this in separate thread instead
     while (true)
     {
         // Update the presence to update game state from client
@@ -36,7 +36,7 @@ int main()
         auto state = presence.GetPlayerState();
 	
 	// Do something with state..
-	std::printf(state.Chart.Title.c_str()); // e.g Bach Alive
+	// std::printf(state.Chart.Title.c_str()); // e.g Bach Alive
 	
 	// Let's not take the entire cpu
         Sleep(100);
